@@ -1,37 +1,59 @@
 <!DOCTYPE html>
-
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>liner site</title>
-    <!<link href="../style.css rel="stylesheet">
-    <style>
-        body {
-            background-color: #323332;
-            color: #fff;
-            text-align: center;
-            padding-top: 20%;
-        }
-        a {
-            text-decoration: none;
-        }
-        .games:after {
-            color: #a3a69c;
-            content: 'GAMES'
-
-        }
-        .games:hover:after {
-            color: #fff;
-            background-color: black;
-            content: 'GITHUB!'
-        }
-
-    </style>
-  </head>
-  <body>
-    <h1>LINER <a href="https://github.com/r-liner" class="games"></a><h1>
-    <h2>ru: В разработке.</h1> 
-    <h2>en: In development.</h1>
-    <p align="center">Will be back soon.<p>
-  </body>                                           
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>liner-exe's site</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.png">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <a href="https://liner-exe.github.io" class="header__logo">liner.exe</a>
+                    <nav class="header__navbar">
+                        <ul class="header__links">
+                            <li><a href="https://liner-exe.github.io" class="visited">Home</a></li>
+                            <li><a href="oops/oops.html">Projects</a></li>
+                            <li><a href="oops/oops.html">Links</a></li>
+                            <li><a href="oops/oops.html">About</a>
+                            </li>
+                        </ul>
+        
+                        <a href="https://github.com/liner-exe" class="btn">GitHub</a>
+                    </nav>
+            </div>
+        </header>
+        <main class="main">
+            <section class="introduction">
+                <div class="container">
+                    <div class="introduction__left">
+                        <h4 class="introduction__subtitle">INTRODUCTION</h4>
+                        <h1 class="introduction__title">Welcome to my site</h1>
+                        <p class="introduction__text">I'm 18 y.o software engineer.<br>Not too expirienced but learn hard.</p>
+                        <a href="oops/oops.html" class="btn">ABOUT</a>
+                    </div>
+                    
+                    <img src="images/introduction_banner.jpg" class="introduction__banner">
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__contacts">
+                    <h2 class="footer__contacts-title">Contacts</h2>
+                    <a href="mailto:contact.liner999@gmail.com" class="footer__email">contact.liner999@gmail.com</a>
+                    <a href="https://liner-exe.github.io" class="footer__site-link">liner-exe.github.io</a>
+                </div>
+                <div class="footer__info">
+                    <h2>Information</h2>
+                    <a href="oops/oops.html" class="info__about">About</a>
+                    <a href="oops/oops.html" class="info__my-skills">My skills</a>
+                    <a href="oops/oops.html" class="info__projects">Projects</a>
+                </div>
+                <!-- <div class="footer__social-networks">
+                </div> -->
+            </div>
+        </footer>
+    </body>
 </html>
