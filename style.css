@@ -162,13 +162,10 @@ h1, h2, h3, h4 {
 
 .footer {
     background-color: #323232;
-
-    height: calc(100vh - 530px);
 }
 
 .footer .container {
-    height: 200px;
-
+    height: 220px;
     display: flex;
     justify-content: space-around;
     align-items: first baseline;
@@ -176,6 +173,9 @@ h1, h2, h3, h4 {
 
 .footer h2 {
     color: #aaa;
+}
+
+.footer__contacts-title {
     padding-bottom: 10px;
 }
 
@@ -200,13 +200,21 @@ h1, h2, h3, h4 {
 
 .footer__info a {
     color: #636363;
-    padding: 0 0 5px;
+    padding-top: 5px;
 
     transition: color 0.5s;
 }
 
+.footer__about {
+    padding-top: 10px;
+}
+
 .footer__info a:hover {
     color: #aaa;
+}
+
+.info__title {
+    padding-bottom: 0;
 }
 
 .footer__social-networks {
@@ -250,6 +258,10 @@ h1, h2, h3, h4 {
     .footer .container {
         flex-direction: column;
         gap: 10px;
+
+        left: 0;
+        top: 0;
+        justify-content: center;
         align-items: center;
     }
 }
