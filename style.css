@@ -213,3 +213,43 @@ h1, h2, h3, h4 {
     display: flex;
     gap: 5px;
 }
+
+/*- mobile adaptation */
+
+@media (max-width: 500px) {
+    .header .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header__navbar a {
+        font-size: 12px;
+    }
+
+    .header .btn {
+        width: 70px;
+        height: 35px;
+    }
+
+    .introduction__left {
+        position: relative;
+    }
+
+    .introduction .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .introduction__banner {
+        margin: 0;
+
+        width: 80%;
+        height: 80%;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+}
