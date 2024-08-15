@@ -222,6 +222,48 @@ h1, h2, h3, h4 {
     gap: 5px;
 }
 
+/*- tablet adaptation */
+
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+    }
+
+    .header__navbar a {
+        font-size: 14px;
+    }
+
+    .header .btn {
+        width: 80px;
+        height: 40px;
+        margin-right: 20px;
+    }
+
+    .introduction__subtitle {
+        font-size: 14px;
+    }
+
+    .introduction__title {
+        font-size: 30px;
+    }
+
+    .introduction__text {
+        font-size: 12px;
+    }
+
+    .introduction__banner {
+        width: 40%;
+        height: 40%;
+    }
+
+    .introduction .btn {
+        height: 35px;
+        width: 120px;
+
+        font-size: 14px
+    }
+}
+
 /*- mobile adaptation */
 
 @media (max-width: 500px) {
@@ -277,6 +319,6 @@ h1, h2, h3, h4 {
         justify-content: center;
         align-items: center;
 
-        padding: 0 0 30px 0;
+        padding-bottom: 30px;
     }
 }
