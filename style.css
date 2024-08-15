@@ -229,6 +229,10 @@ h1, h2, h3, h4 {
         flex-direction: column;
     }
 
+    .header__navbar {
+        justify-content: center;
+    }
+
     .header__navbar a {
         font-size: 14px;
     }
@@ -236,8 +240,10 @@ h1, h2, h3, h4 {
     .header .btn {
         width: 80px;
         height: 40px;
-        margin-right: 20px;
+        margin: 0;
     }
+
+    .introduction
 
     .introduction__subtitle {
         font-size: 14px;
@@ -279,20 +285,29 @@ h1, h2, h3, h4 {
     .header .btn {
         width: 70px;
         height: 35px;
+
+        margin: 0;
     }
 
     .introduction .container {
         padding: 40px 0;
         flex-direction: column;
         gap: 15px;
+
+        background: url(images/introduction_banner.jpg);
+        background-size: cover;
     }
 
     .introduction__subtitle {
+        color: #fff;
+
         margin: 0;
         font-size: 12px;
     }
 
     .introduction__title {
+        color: #fff;
+
         font-size: 24px;
     }
 
@@ -300,11 +315,17 @@ h1, h2, h3, h4 {
         font-size: 12px;
     }
 
+    .introduction .btn {
+        margin: 0 auto;
+    }
+
     .introduction__banner {
         margin: 0;
 
         width: 80%;
         height: 80%;
+
+        display: none;
     }
 
     .footer .container {
@@ -320,5 +341,9 @@ h1, h2, h3, h4 {
         align-items: center;
 
         padding-bottom: 30px;
+    }
+
+    .footer .container h2, a {
+        text-align: center;
     }
 }
