@@ -9,7 +9,6 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
 }
 
 a {
@@ -26,6 +25,10 @@ ul {
 h1, h2, h3, h4 {
     color: #fff;
     margin: 0;
+}
+
+p {
+    color: #fff;
 }
 
 .container {
@@ -222,6 +225,14 @@ h1, h2, h3, h4 {
     gap: 5px;
 }
 
+.footer__copyright {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer__copyright p, .footer__copyright a {
+    color: #636363;
+}
 /*- tablet adaptation */
 
 @media (max-width: 768px) {
