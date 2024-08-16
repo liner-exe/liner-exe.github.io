@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/*- general styles */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    color: #fff;
+    margin: 0;
+}
+
+p {
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+
+    height: 50px;
+    width: 150px;
+
+    background: orange;
+    border-radius: 5px;
+
+    font-weight: 600;
+    font-size: 18px;
+
+    transition: background-color 0.5s;
+}
+
+.btn:hover {
+    background-color: #aaa;
+}
+
+/*- header */
+
+.header {
+    padding: 30px 20px;
+    background-color: #111;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 32px;
+    font-weight: 900;
+
+    transition: font-size 0.5s;
+}
+
+.header__logo:hover {
+    font-size: 2.05em;
+}
+
+.header__logo:visited {
+    color: antiquewhite;
+}
+
+.header__links {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.header__navbar {
+    display: flex;
+    gap: 30px;
+}
+
+.header__navbar a.visited {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.header__navbar a.visited:hover {
+    opacity: 0.8;
+}
+
+.header__navbar a {
+    opacity: 0.7;
+    transition: opacity 0.5s;
+
+    line-height: 0;
+}
+
+.header__navbar a:hover {
+    opacity: 1;
+}
+
+.header__navbar .btn {
+    width: 100px;
+    font-weight: 500;
+}
+
+.main {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1 {
+    color: #111;
+}
+
+/*- tablet adaptation */
+
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+    }
+
+    .header__navbar {
+        justify-content: center;
+    }
+
+    .header__navbar a {
+        font-size: 14px;
+    }
+
+    .header .btn {
+        width: 80px;
+        height: 40px;
+        margin: 0;
+    }
+}
+
+/*- mobile adaptation */
+
+@media (max-width: 500px) {
+    .header .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header__navbar a {
+        font-size: 12px;
+    }
+
+    .header .btn {
+        width: 70px;
+        height: 35px;
+
+        margin: 0;
+    }
+
+    .main h1 {
+        font-size: 26px;
+    }
+}
