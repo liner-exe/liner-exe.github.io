@@ -231,8 +231,20 @@ p {
 }
 
 .footer__social-networks {
+    align-items: center;
     display: flex;
-    gap: 5px;
+    gap: 8px;
+}
+
+.footer__social-networks a {
+    color: #fff;
+    opacity: 40%;
+
+    transition: opacity 0.5s;
+}
+
+.footer__social-networks a:hover {
+    opacity: 70%;
 }
 
 .footer .separator {
