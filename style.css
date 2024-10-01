@@ -134,6 +134,11 @@ p {
 
 /*- introduction */
 
+.main {
+    align-content: center;
+    background-color: #fff;
+}
+
 .introduction .container {
     display: flex;
     justify-content: space-evenly;
