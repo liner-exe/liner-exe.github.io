@@ -260,6 +260,26 @@ p {
     opacity: 70%;
 }
 
+.footer__email__wrapper {
+    display: flex;
+    gap: 7px;
+}
+
+.footer__email__wrapper .envelope {
+    color: #b1b1b1;
+    opacity: 15%;
+}
+
+.footer__site-link__wrapper {
+    display: flex;
+    gap: 7px;
+}
+
+.footer__site-link__wrapper .globe {
+    color: #b1b1b1;
+    opacity: 15%;
+}
+
 .footer .separator {
     width: 100%;
     border: 1px solid #2f2f2f;
