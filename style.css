@@ -331,6 +331,8 @@ p {
         margin: 0;
     }
 
+    .introduction
+
     .introduction__subtitle {
         font-size: 14px;
     }
@@ -437,6 +439,19 @@ p {
 
     .footer .footer-links-wrapper {
         font-size: 14px;
+    }
+
+    .footer .footer-links-wrapper {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footer__contacts {
+        order: 2;
+    }
+
+    .footer__info {
+        order: 1;
     }
 }
 
